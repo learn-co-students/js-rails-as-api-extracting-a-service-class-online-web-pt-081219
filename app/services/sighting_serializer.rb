@@ -17,7 +17,7 @@ class SightingSerializer
           },
           except: [:updated_at],
         }
-        @sighting.to_json(options)
+        @sighting.to_json(options) #this part is where the data goes through for the browser
       end
 
 
